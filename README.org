@@ -23,3 +23,17 @@ Les numéros de section et leurs intitulés sont identifiés comme suit :
 ** TODO Parser la réponse
 Le script devra devra dans un premier temps lister les codes et les descriptions.
 Par la suite utiliser les codes pour générer une requête plus en profondeur vers les sous-sections.
+* Codes à garder sous la main
+#+BEGIN_SRC python
+import urllib # on en aura besoin quand il faudra envoyer des requêtes en GET
+from bs4 import BeautifulSoup # on verra l'usage dans la section 2 du code
+# user_agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64)' # au cas où ça s'impose
+# headers = { 'User-Agent' : user_agent }
+
+###### Section 2
+#soup = BeautifulSoup(home_page, 'html.parser')
+# edit = soup.prettify()
+
+# fo.close()
+# soup.title
+#+END_SRC
