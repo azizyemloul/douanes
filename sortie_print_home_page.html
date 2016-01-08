@@ -1,0 +1,630 @@
+<html>
+<head>
+</script>
+	<title>Douane alg&eacute;rienne : Tarif Douanier</title>
+	<meta http-equiv="Content-Language" content="fr">
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<script src="js/ajax.js" type="text/javascript"> </script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/init1.js"> </script>
+	<link rel="stylesheet" type="text/css" href="css/style_tarif.css" >
+    <script src="js/calendhttp://www.douane.gov.dz/jscal2.js"></script>
+    <script src="js/calendhttp://www.douane.gov.dz/lang/en.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/calendar/css/jscal2.css" />
+    <link rel="stylesheet" type="text/css" href="js/calendar/css/border-radius.css" />
+    <link rel="stylesheet" type="text/css" href="js/calendar/css/steel/steel.css" />
+	<script src="js/calendhttp://www.douane.gov.dz/lang/fr.js"></script>
+
+<script type="text/javascript" language="javascript" src="http://www.douane.gov.dz/jquery.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function()
+{
+	//slides the element with class "menu_body" when paragraph with class "menu_head" is clicked 
+	$("#firstpane p.menu_head").click(function()
+    {
+		$(this).css({backgroundImage:"url(http://www.douane.gov.dz/down.gif)"}).next("div.menu_body").slideToggle(300).siblings("div.menu_body").slideUp("slow");
+       	$(this).siblings().css({backgroundImage:"url(http://www.douane.gov.dz/left.gif)"});
+	});
+	//slides the element with class "menu_body" when mouse is over the paragraph
+	$("#secondpane p.menu_head").mouseover(function()
+    {
+	     $(this).css({backgroundImage:"url(http://www.douane.gov.dz/down.gif)"}).next("div.menu_body").slideDown(500).siblings("div.menu_body").slideUp("slow");
+         $(this).siblings().css({backgroundImage:"url(http://www.douane.gov.dz/left.gif)"});
+	});
+});
+</script>
+<link rel="stylesheet" type="text/css" href="http://www.douane.gov.dz/style.css" >
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {
+	background-color: #CCCCCC;
+}
+.style59 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: #333333;
+}
+.style77 {
+	font-size: 9px;
+	color: #15506F;
+}
+.Style5br1 {font-family: verdana; font-size: 10px; color: #EC0000; text-decoration: none; padding-left: 10px; padding-right: 10px; font-weight: bold;
+}
+.Style5br1 {font-family: verdana; font-size: 10px; color: #EC0000; text-decoration: none; padding-left: 10px; padding-right: 10px; font-weight: bold;
+}
+.text_ {font-size: 15px;
+	font-family: "Baskerville Old Face";
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #333333;
+}
+.marge {margin-left: 2em;
+}
+.marges {margin-left: 3em;
+}
+.style81 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+.Style5 {font-family: verdana; font-size: 12px; color: #666666; text-decoration: none; padding-left: 10px; padding-right: 10px; font-weight: bold; }
+.prix {color: #333333;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.texte {font-family:verdana; font-size:11px; color:#666666; text-decoration:none; padding-left:10px;  padding-right:10px;
+}
+.texte {color: #333333;
+	font-weight: normal;
+	font-size: 12px;
+	font-family: tahoma, sans-serif;
+}
+-->
+</style>
+
+<script type="text/JavaScript">
+<!--
+function mmLoadMenus() {
+  if (window.mm_menu_0608145323_0) return;
+                                  window.mm_menu_0608145323_0 = new Menu("root",324,18,"tahoma",10,"#FFFFFF","#FFFFFF","#006992","#05789D","left","middle",3,0,600,-5,7,true,true,true,0,false,false);
+  mm_menu_0608145323_0.addMenuItem("&nbsp;&nbsp;Consulter&nbsp;le&nbsp;Code&nbsp;des&nbsp;Douanes&nbsp;","location='http://www.douane.gov.dz/Consulter le code des douanes.html'");
+  mm_menu_0608145323_0.addMenuItem("&nbsp;&nbsp;Consulter&nbsp;le&nbsp;tarif&nbsp;douanier&nbsp;","location='http://www.douane.gov.dz/Consulter le tarif douanier.html'");
+  mm_menu_0608145323_0.addMenuItem("&nbsp;&nbsp;Pour&nbsp;mieux&nbsp;servir&nbsp;les&nbsp;imprim&eacute;s&nbsp;douaniers&nbsp;","location='http://www.douane.gov.dz/Pour mieux servir les imprimes douaniers.html'");
+  mm_menu_0608145323_0.addMenuItem("&nbsp;&nbsp;Liens&nbsp;utiles","location='http://www.douane.gov.dz/Liens utiles.html'");
+   mm_menu_0608145323_0.hideOnMouseOut=true;
+   mm_menu_0608145323_0.bgColor='#555555';
+   mm_menu_0608145323_0.menuBorder=1;
+   mm_menu_0608145323_0.menuLiteBgColor='#333333';
+   mm_menu_0608145323_0.menuBorderBgColor='#CCCCCC';
+                  window.mm_menu_0608150349_0_1_1 = new Menu("Avantages&nbsp;fiscaux&nbsp;",172,18,"tahoma",10,"#FFFFFF","#FFFFFF","#006992","#05789D","left","middle",3,0,600,-5,7,true,true,true,0,true,false);
+      mm_menu_0608150349_0_1_1.addMenuItem("ANDI","window.open('pdf/Brochures/andi.pdf', '_blank');");
+      mm_menu_0608150349_0_1_1.addMenuItem("ANSEJ","window.open('pdf/Brochures/ansej.pdf', '_blank');");
+      mm_menu_0608150349_0_1_1.addMenuItem("CNAC","window.open('pdf/Brochures/cnac.pdf', '_blank');");
+      mm_menu_0608150349_0_1_1.addMenuItem("Hydrocarbure","window.open('pdf/Brochures/hydro.pdf', '_blank');");
+      mm_menu_0608150349_0_1_1.addMenuItem("Loi&nbsp;mini&egrave;re","window.open('pdf/Brochures/loiminiere.pdf', '_blank');");
+      mm_menu_0608150349_0_1_1.addMenuItem("Industrie&nbsp;Pharmaceutique","location='http://www.douane.gov.dz/pdf/Brochures/pharmacie.pdf'");
+       mm_menu_0608150349_0_1_1.hideOnMouseOut=true;
+       mm_menu_0608150349_0_1_1.bgColor='#555555';
+       mm_menu_0608150349_0_1_1.menuBorder=1;
+       mm_menu_0608150349_0_1_1.menuLiteBgColor='#333333';
+       mm_menu_0608150349_0_1_1.menuBorderBgColor='#CCCCCC';
+    window.mm_menu_0608150349_0_1 = new Menu("Brochures",296,18,"tahoma",10,"#FFFFFF","#FFFFFF","#006992","#05789D","left","middle",3,0,600,-5,7,true,true,true,0,true,false);
+    mm_menu_0608150349_0_1.addMenuItem("Syst&egrave;me&nbsp;SIGADII","location='http://www.douane.gov.dz/Systeme SIGADI.html'");
+    mm_menu_0608150349_0_1.addMenuItem("Accord&nbsp;union&nbsp;europ&eacute;enne","window.open('pdf/Brochures/accorduefr.pdf', '_blank');");
+    mm_menu_0608150349_0_1.addMenuItem("D&eacute;finition&nbsp;l&eacute;gale&nbsp;de&nbsp;la&nbsp;contrefa&ccedil;on&nbsp;","location='http://www.douane.gov.dz/pdf/Brochures/contrefacon.pdf'");
+    mm_menu_0608150349_0_1.addMenuItem("Cession&nbsp;à&nbsp;l'amiable&nbsp;","window.open('pdf/Brochures/cessionamiable.pdf', '_blank');");
+    mm_menu_0608150349_0_1.addMenuItem("Vente&nbsp;aux&nbsp;ench&egrave;res&nbsp;publiques&nbsp;","location='http://www.douane.gov.dz/Vente aux encheres publiques.html'");
+    mm_menu_0608150349_0_1.addMenuItem("Op&eacute;rateurs&nbsp;&eacute;conomiques,&nbsp;r&eacute;duisez&nbsp;vos&nbsp;coûtes","window.open('pdf/Brochures/operateur.pdf', '_blank');");
+    mm_menu_0608150349_0_1.addMenuItem("Grande&nbsp;zone&nbsp;arabe&nbsp;libre&nbsp;&nbsp;&eacute;change","window.open('pdf/Brochures/gzale.pdf', '_blank');");
+    mm_menu_0608150349_0_1.addMenuItem("Comment&nbsp;devenir&nbsp;douanier&nbsp;?","location='http://www.douane.gov.dz/Comment devenir douanier.html'");
+    mm_menu_0608150349_0_1.addMenuItem("L'Organisation&nbsp;Mondiale&nbsp;des&nbsp;Douanes","location='http://www.douane.gov.dz/www.wcoomd.org'");
+    mm_menu_0608150349_0_1.addMenuItem(mm_menu_0608150349_0_1_1);
+     mm_menu_0608150349_0_1.hideOnMouseOut=true;
+     mm_menu_0608150349_0_1.childMenuIcon="http://www.douane.gov.dz/arrows.gif";
+     mm_menu_0608150349_0_1.bgColor='#555555';
+     mm_menu_0608150349_0_1.menuBorder=1;
+     mm_menu_0608150349_0_1.menuLiteBgColor='#333333';
+     mm_menu_0608150349_0_1.menuBorderBgColor='#CCCCCC';
+  window.mm_menu_0608150349_0 = new Menu("root",328,18,"tahoma",10,"#FFFFFF","#FFFFFF","#006992","#05789D","left","middle",3,0,600,-5,7,true,true,true,0,true,false);
+  mm_menu_0608150349_0.addMenuItem("Bulletin&nbsp;officiel&nbsp;des&nbsp;douanes&nbsp;Alg&eacute;riennes&nbsp;","location='http://www.douane.gov.dz/Bulletin officiel des douanes Algeriennes.html'");
+  mm_menu_0608150349_0.addMenuItem("Le&nbsp;Bulletin&nbsp;«&nbsp;Info&nbsp;Douanes&nbsp;»","location='http://www.douane.gov.dz/Le Bulletin Info Douanes.html'");
+  mm_menu_0608150349_0.addMenuItem("Rapport&nbsp;annuel&nbsp;de&nbsp;performance&nbsp;","location='http://www.douane.gov.dz/Rapport annuel de performance.html'");
+  mm_menu_0608150349_0.addMenuItem("Statistiques&nbsp;de&nbsp;saisies","location='http://www.douane.gov.dz/Statistiques de saisies.html'");
+  mm_menu_0608150349_0.addMenuItem("Guides&nbsp;sur&nbsp;la&nbsp;valeur&nbsp;en&nbsp;douane","location='http://www.douane.gov.dz/Guides sur la valeur en douane.html'");
+  mm_menu_0608150349_0.addMenuItem("Manuels&nbsp;de&nbsp;r&egrave;gles&nbsp;d'origines&nbsp;&nbsp;des&nbsp;marchandises&nbsp;UE","location='http://www.douane.gov.dz/Manuels de regles dorigines  des marchandises UE.html'");
+  mm_menu_0608150349_0.addMenuItem(mm_menu_0608150349_0_1,"location='http://www.douane.gov.dz/Brochures.html'");
+   mm_menu_0608150349_0.hideOnMouseOut=true;
+   mm_menu_0608150349_0.childMenuIcon="http://www.douane.gov.dz/arrows.gif";
+   mm_menu_0608150349_0.bgColor='#555555';
+   mm_menu_0608150349_0.menuBorder=1;
+   mm_menu_0608150349_0.menuLiteBgColor='#333333';
+   mm_menu_0608150349_0.menuBorderBgColor='#CCCCCC';
+window.mm_menu_0609173951_0_1 = new Menu("&nbsp;&nbsp;Concours&nbsp;et&nbsp;formation",310,18,"tahoma",10,"#FFFFFF","#FFFFFF","#006992","#05789D","left","middle",3,0,600,-5,7,true,true,true,0,false,false);mm_menu_0609173951_0_1.addMenuItem("Les&nbsp;examens&nbsp;par&nbsp;m&eacute;tiers&nbsp;","location='http://www.douane.gov.dz/Les examens  par metiers.html'");   
+mm_menu_0609173951_0_1.addMenuItem("Les&nbsp;concours&nbsp;d'entr&eacute;e&nbsp;","location='http://www.douane.gov.dz/Les concours dentree.html'");
+    mm_menu_0609173951_0_1.addMenuItem("Vous&nbsp;pr&eacute;parez&nbsp;au&nbsp;concours","location='http://www.douane.gov.dz/Vous preparez au concours.html'");
+    mm_menu_0609173951_0_1.addMenuItem("Visite&nbsp;des&nbsp;Ecoles&nbsp;des&nbsp;douanes","location='http://www.douane.gov.dz/Visite des ecoles des douanes.html'");
+     mm_menu_0609173951_0_1.hideOnMouseOut=true;
+     mm_menu_0609173951_0_1.bgColor='#555555';
+     mm_menu_0609173951_0_1.menuBorder=1;
+     mm_menu_0609173951_0_1.menuLiteBgColor='#333333';
+     mm_menu_0609173951_0_1.menuBorderBgColor='#CCCCCC';
+  window.mm_menu_0609173951_0 = new Menu("root",310,18,"tahoma",10,"#FFFFFF","#FFFFFF","#006992","#05789D","left","middle",3,0,600,-5,7,true,true,true,0,false,false);
+  mm_menu_0609173951_0.addMenuItem("&nbsp;&nbsp;M&eacute;tiers&nbsp;de&nbsp;la&nbsp;douane","location='http://www.douane.gov.dz/Les metiers de la douane.html'");
+  mm_menu_0609173951_0.addMenuItem(mm_menu_0609173951_0_1);
+  mm_menu_0609173951_0.addMenuItem("&nbsp;&nbsp;Conditions&nbsp;de&nbsp;participation&nbsp;et&nbsp;R&egrave;glement&nbsp;int&eacute;rieur","location='http://www.douane.gov.dz/Les conditions de participation et le reglement interieurs.html'");
+   mm_menu_0609173951_0.hideOnMouseOut=true;
+   mm_menu_0609173951_0.childMenuIcon="http://www.douane.gov.dz/arrows.gif";
+   mm_menu_0609173951_0.bgColor='#555555';
+   mm_menu_0609173951_0.menuBorder=1;
+   mm_menu_0609173951_0.menuLiteBgColor='#333333';
+   mm_menu_0609173951_0.menuBorderBgColor='#CCCCCC';
+window.mm_menu_0614154936_0 = new Menu("root",175,17,"tahoma",11,"#FFFFFF","#FFFFFF","#006992","#05789D","left","middle",3,0,600,-5,7,true,true,true,0,true,true);
+  mm_menu_0614154936_0.addMenuItem("R&egrave;glements&nbsp;douaniers");
+  mm_menu_0614154936_0.addMenuItem("Notes&nbsp;et&nbsp;Circulaires");
+  mm_menu_0614154936_0.addMenuItem("R&eacute;glementaire&nbsp;des&nbsp;Litiges");
+  mm_menu_0614154936_0.addMenuItem("Loi&nbsp;sur&nbsp;la&nbsp;lutte");
+   mm_menu_0614154936_0.hideOnMouseOut=true;
+   mm_menu_0614154936_0.bgColor='#555555';
+   mm_menu_0614154936_0.menuBorder=1;
+   mm_menu_0614154936_0.menuLiteBgColor='#333333';
+   mm_menu_0614154936_0.menuBorderBgColor='#CCCCCC';
+
+            window.mm_menu_0912150143_0 = new Menu("root",150,18,"tahoma",10,"#FFFFFF","#FFFFFF","#006992","#05789D","left","middle",3,0,600,-5,7,true,true,true,0,true,false);
+  mm_menu_0912150143_0.addMenuItem("Enqu&ecirc;tes&nbsp;et&nbsp;sondages","location='http://www.douane.gov.dz/Enquetes_et_sondages.html'");
+  mm_menu_0912150143_0.addMenuItem("FAQ","location='http://www.douane.gov.dz/FAQ.html'");
+  mm_menu_0912150143_0.addMenuItem("Enqu&ecirc;tes&nbsp;et&nbsp;sondages","location='http://www.douane.gov.dz/Enquetes_et_sondages.html'");
+  mm_menu_0912150143_0.addMenuItem("FAQ","location='http://www.douane.gov.dz/FAQ.html'");
+  mm_menu_0912150143_0.addMenuItem("Enqu&ecirc;tes&nbsp;et&nbsp;sondages","location='http://www.douane.gov.dz/Enquetes_et_sondages.html'");
+  mm_menu_0912150143_0.addMenuItem("FAQ","location='http://www.douane.gov.dz/FAQ.html'");
+  mm_menu_0912150143_0.addMenuItem("Enqu&ecirc;tes&nbsp;et&nbsp;sondages","location='http://www.douane.gov.dz/Enquetes_et_sondages.html'");
+  mm_menu_0912150143_0.addMenuItem("FAQ","location='http://www.douane.gov.dz/FAQ.html'");
+   mm_menu_0912150143_0.hideOnMouseOut=true;
+   mm_menu_0912150143_0.bgColor='#333333';
+   mm_menu_0912150143_0.menuBorder=1;
+   mm_menu_0912150143_0.menuLiteBgColor='#333333';
+   mm_menu_0912150143_0.menuBorderBgColor='#FFFFFF';
+  window.mm_menu_1130100705_0 = new Menu("root",156,16,"Tahoma",10,"#FFFFFF","#FFFFFF","#006992","#05789D","left","middle",3,0,1000,-5,7,true,true,true,0,true,true);
+  mm_menu_1130100705_0.addMenuItem("Demande&nbsp;de&nbsp;TPD","location='http://www.douane.gov.dz/eservices/demande_tpd/'");
+  mm_menu_1130100705_0.addMenuItem("D&eacute;claration&nbsp;de&nbsp;devises","location='http://www.douane.gov.dz/eservices/declaration_devises/'");
+  mm_menu_1130100705_0.addMenuItem("Taxation&nbsp;v&eacute;hicules","location='http://www.douane.gov.dz/eservices/taxation_vehicules/'");
+  mm_menu_1130100705_0.addMenuItem("Consultation&nbsp;recours","location='http://www.douane.gov.dz/eservices/consultation_recours/'");
+   mm_menu_1130100705_0.hideOnMouseOut=true;
+   mm_menu_1130100705_0.bgColor='#000000';
+   mm_menu_1130100705_0.menuBorder=1;
+   mm_menu_1130100705_0.menuLiteBgColor='#000000';
+   mm_menu_1130100705_0.menuBorderBgColor='#FFFFFF';
+window.mm_menu_0912150143_0 = new Menu("root",150,18,"tahoma",10,"#FFFFFF","#FFFFFF","#006992","#05789D","left","middle",3,0,600,-5,7,true,true,true,0,true,false);
+  mm_menu_0912150143_0.addMenuItem("Enqu&ecirc;tes&nbsp;et&nbsp;sondages","location='http://www.douane.gov.dz/Enquetes_et_sondages.html'");
+  mm_menu_0912150143_0.addMenuItem("FAQ","location='http://www.douane.gov.dz/FAQ.html'");
+   mm_menu_0912150143_0.hideOnMouseOut=true;
+   mm_menu_0912150143_0.bgColor='#333333';
+   mm_menu_0912150143_0.menuBorder=1;
+   mm_menu_0912150143_0.menuLiteBgColor='#333333';
+   mm_menu_0912150143_0.menuBorderBgColor='#FFFFFF';
+
+mm_menu_0912150143_0.writeMenus();
+} // mmLoadMenus()
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='http://www.douane.gov.dz/"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+</script>
+<script language="JavaScript" src="http://www.douane.gov.dz/mm_menu.js"></script>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('http://www.douane.gov.dz/images/Sans-titGre---1_06.jpg','http://www.douane.gov.dz/images/douane_02b.gif','http://www.douane.gov.dz/images/douane_03b.gif','http://www.douane.gov.dz/images/douane_04b.gif','http://www.douane.gov.dz/images/douane_05b.gif','http://www.douane.gov.dz/images/douane_06b.gif','http://www.douane.gov.dz/images/douane_07b.gif','http://www.douane.gov.dz/images/douane-final-DECOUP_03b.jpg','http://www.douane.gov.dz/images/accueil_1.png','http://www.douane.gov.dz/images/faire_ca-1.png','http://www.douane.gov.dz/images/boite_1.png','http://www.douane.gov.dz/images/nos_publications_1.png','http://www.douane.gov.dz/images/d_v_ecoute_1.png','http://www.douane.gov.dz/images/faq_1.png','http://www.douane.gov.dz/images/contact_1.png')">
+<script language="JavaScript1.2">mmLoadMenus();</script>
+<table width="975" border="0" align="center" cellpadding="1" cellspacing="1" bordercolor="#666666" bgcolor="#999999">
+  <tr>
+    <td width="965" height="929" valign="top"><table width="975" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+      <tr>
+        <td width="983" bgcolor="#9C9DA4"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="975" height="155">
+
+          <param name="movie" value="http://www.douane.gov.dz/new_anim.swf">
+          <param name="quality" value="high">
+          <embed src="http://www.douane.gov.dz/new_anim.swf" quality="high" pluginspage="http://www.macromedia.chttp://www.douane.gov.dz/getflashplayer" type="application/x-shockwave-flash" width="975" height="155"></embed></object></td>
+      </tr>
+      <tr>
+        <td height="30" valign="top"><a href="http://www.douane.gov.dz/#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image35','','http://www.douane.gov.dz/images/douane_02b.gif',1)"></a><a href="http://www.douane.gov.dz/#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image36','','http://www.douane.gov.dz/images/douane_03b.gif',1)"></a><a href="http://www.douane.gov.dz/#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image37','','http://www.douane.gov.dz/images/douane_04b.gif',1)"></a><a href="http://www.douane.gov.dz/#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image38','','http://www.douane.gov.dz/images/douane_05b.gif',1)"></a><a href="http://www.douane.gov.dz/#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image39','','http://www.douane.gov.dz/images/douane_06b.gif',1)"></a><a href="http://www.douane.gov.dz/#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image40','','http://www.douane.gov.dz/images/douane_07b.gif',1)"></a><a href="http://www.douane.gov.dz/#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image34','','http://www.douane.gov.dz/images/douane-final-DECOUP_03b.jpg',1)"></a>
+          <table width="975" height="30" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+
+              <td width="79" height="30" background="http://www.douane.gov.dz/images/fond_btns1.jpg" class="style_menus"><div align="center" class="style_menus"><a href="http://www.douane.gov.dz/index.php" class="style_menus" onMouseOver="MM_swapImage('Image35','','http://www.douane.gov.dz/images/accueil_1.png',1)" onMouseOut="MM_swapImgRestore()">ACCUEIL</a></div></td>
+              <td width="1" height="30" background="http://www.douane.gov.dz/images/fond_btns1.jpg" class="style_menus"><div align="center"><span class="style_menus"><span class="style_menus"></span></span><img src="http://www.douane.gov.dz/images/newsf.png" width="1" height="13"></div></td>
+              <td width="117" height="30" background="http://www.douane.gov.dz/images/fond_btns1.jpg" class="style_menus"><div align="center" class="style_menus"><a href="http://www.douane.gov.dz/#" name="link4" id="link1" onMouseOver="MM_showMenu(window.mm_menu_0609173951_0,-25,23,null,'link4')" onMouseOut="MM_startTimeout();" >FAIRE CARRI&Egrave;RE </a></div></td>
+              <td width="1" height="30" background="http://www.douane.gov.dz/images/fond_btns1.jpg" class="style_menus"><div align="center"><span class="style_menus"></span><img src="http://www.douane.gov.dz/images/newsf.png" width="1" height="13"></div></td>
+              <td width="99" height="30" background="http://www.douane.gov.dz/images/fond_btns1.jpg" class="style_menus"><div align="center" class="style_menus"><a href="http://www.douane.gov.dz/#" name="link10" id="link3" onMouseOver="MM_showMenu(window.mm_menu_0608145323_0,0,23,null,'link10')" onMouseOut="MM_startTimeout();">BOITE &Agrave; OUTILS </a></div></td>
+              <td width="1" height="30" background="http://www.douane.gov.dz/images/fond_btns1.jpg" class="style_menus"><div align="center"><span class="style_menus"><span class="style_menus"></span></span><img src="http://www.douane.gov.dz/images/newsf.png" width="1" height="13"></div></td>
+
+              <td width="155" height="30" background="http://www.douane.gov.dz/images/fond_btns1.jpg" class="style_menus"><div align="center" class="style_menus"><a href="http://www.douane.gov.dz/#" name="link5" class="style_menus" id="link2" onMouseOver="MM_showMenu(window.mm_menu_0608150349_0,0,23,null,'link5')" onMouseOut="MM_startTimeout();">NOS PUBLICATIONS </a></div></td>
+              <td width="1" height="30" background="http://www.douane.gov.dz/images/fond_btns1.jpg" class="style_menus"><div align="center"><span class="style_menus"><span class="style_menus"></span></span><img src="http://www.douane.gov.dz/images/newsf.png" width="1" height="13"></div></td>
+              <td width="200" height="30" background="http://www.douane.gov.dz/images/fond_btns1.jpg" class="style_menus"><div align="center" class="style_menus"><a href="http://www.douane.gov.dz/la douane a votre ecoute.html" name="link8" id="link6" onMouseOver="MM_showMenu(window.mm_menu_0912150143_0,0,23,null,'link8')" onMouseOut="MM_startTimeout();">LA DOUANE &Agrave; VOTRE &Eacute;COUTE </a></div></td>
+              <td width="10" height="30" background="http://www.douane.gov.dz/images/fond_btns1.jpg" class="style_menus"><div align="center"><span class="style_menus"><span class="style_menus"></span></span><img src="http://www.douane.gov.dz/images/newsf.png" width="1" height="13"></div></td>
+              <td width="103" height="30" background="http://www.douane.gov.dz/images/fond_btns1.jpg"><div align="center"><a href="http://www.douane.gov.dz/Nous contactez.html" class="style_menus" onMouseOver="MM_swapImage('Image35','','http://www.douane.gov.dz/images/accueil_1.png',1)" onMouseOut="MM_swapImgRestore()"></a><a href="http://www.douane.gov.dz/eservices.html" name="link11" class="style_menus" id="link7" onMouseOver="MM_showMenu(window.mm_menu_1130100705_0,-20,23,null,'link11')" onMouseOut="MM_startTimeout();">E-SERVICES</a></div></td>
+              <td width="9" background="http://www.douane.gov.dz/images/fond_btns1.jpg"><img src="http://www.douane.gov.dz/images/newsf.png" width="1" height="13"></td>
+
+              <td width="168" height="30" background="http://www.douane.gov.dz/images/fond_btns1.jpg"><div align="center"><a href="http://www.douane.gov.dz/Nous contactez.html" class="style_menus" onMouseOver="MM_swapImage('Image35','','http://www.douane.gov.dz/images/accueil_1.png',1)" onMouseOut="MM_swapImgRestore()"></a><a href="http://www.douane.gov.dz/Nous contactez.html" class="style_menus" onMouseOver="MM_swapImage('Image35','','http://www.douane.gov.dz/images/accueil_1.png',1)" onMouseOut="MM_swapImgRestore()">NOUS CONTACTER </a></div></td>
+            </tr>
+          </table></td>
+      </tr>
+      <tr>
+        <td height="680" valign="top"><table width="975" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="10" valign="top" background="http://www.douane.gov.dz/images/f_g.jpg">&nbsp;</td>
+
+              <td width="734" height="638" align="center" valign="top">
+              <div align="center">
+                <center>
+                <table width="738" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="721" height="29" class="style_file">&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.douane.gov.dz/index.php">&nbsp;Accueil </a>&gt;&nbsp;Tarif Douanier</td>
+                </tr>
+                <tr>
+                  <td valign="top">
+				  <div align="center">
+                    <center>
+					<table border="0" cellpadding="2" style="border-collapse: collapse" bordercolor="#111111" width="95%">
+                      <tr>
+                        <td width="100%"><span style="font-size: 9pt"> </span></td>
+                      </tr>
+                      <tr>
+                        <td width="100%">
+                        <center>
+<div id="code_container">
+<form id="ajax-code-form" action="javascript:recherche_code();">
+	<div id="code_title">Tarif Douanier</div>
+	<div id="code_fc">
+		<div id="code_fc_msg">
+			<div id="code_fc_msg_msg">
+<b>Explorer le tarif douanier</b><br/>
+<b>- Recherche séquentielle :</b> Cliquez sur les liens en bas et explorer le tarif<br/>
+<b>- Recherche par positions ou mots clés :</b> Tapez la position ou le mot clé dans la zone de recherche<br/>
+</div>
+		</div>	
+		<div id="code_fc_frm">
+			<div class="txg">Recherche</div>
+				<select size="1" class="textbox" name="choix">
+					<option selected="" value="1">Code sur 2,4,6,8 caractères</option>
+					<option value="0">Mots Clé</option>
+				</select>
+		
+			<input type="text" class="textbox" name="query" value="" size="20">
+			<INPUT class="button" type="submit" name="submit" value="Rechercher">
+		</div>
+	</div>
+	<br/>
+<div id="note">
+<div class="notification_home">
+
+<span class="titre_notif">Crit&egrave;res de recherche :</span><br/>
+<b>- S&eacute;quentiel :</b> Cliquez sur les titres<br/>
+<b>- Par Chapitre :</b> Tapez le code sur 02 caract&egrave;res dans la zone de recherche<br/>
+<b>- Par Position tarifaire :</b> Tapez le code sur 04 caract&egrave;res<br/>
+<b>- Par Position tarifaire du syst&egrave;me harmonis&eacute; :</b> Tapez le code sur 06 caract&egrave;res<br/>
+<b>- Par Sous Position tarifaire :</b> Tapez le code sur 08 caract&egrave;res<br/>	<br/>
+<img width="100%" height="1px" border="0" src="img/ptv.gif" /><br/><br/>
+<span class="titre_notif">Consulter &eacute;galement :</span><br/>
+<b>- <span class="lien_notif"><a target="_blank" href="docs/recueil_classement_tarifaire_2010.pdf">Recueil</a></span> de d&eacute;cisions de classement tarifaire 2010<br/>
+<b>- Amendements &agrave; la Nomenclature du Syst&egrave;me Harmonis&eacute; Applicables &agrave; partir du 1er janvier 2012 <span class="lien_notif"><a target="_blank" href="docs/amendements_2012.pdf">(T&eacute;l&eacute;charger le document en PDF)</a></span></b><br/>
+<b>- Demande de Renseignement sur le classement tarifaire "<span class="lien_notif"><a target="_blank" href="docs/modele40.pdf">mod&egrave;le 40</a></span>"</b><br/>
+<b>- <span class="lien_notif"><a target="_blank" href="docs/abrev.pdf">Glossaire</a></span></b>
+</div>
+				<div class="notification_home">
+							<span class="titre_notif">Liste des Sections du Tarif Douanier</span></b>
+				</div>
+				<div id="liste_envois"><center>
+					<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="634">
+					    <tr>
+      					<td width="100%">
+      					<table border="0" class="tdetitle" cellpadding="4" style="border-collapse: collapse" bordercolor="#111111" bgcolor="#CBD2D8" width="100%" cellspacing="4">
+        					<tr>
+          					<td width="90">Num&eacute;ro</td>
+          					<td width="568">Section</td>
+        					</tr>
+      					</table>
+      					</td>
+    					</tr>
+    					<tr>
+							<td width="100%"><img border="0" width="100%" height="1px" src="img/ptv.gif"></td>
+						</tr><tr><td width="100%"><table class="tdet" border="0" cellpadding="4" style="border-collapse: collapse" bordercolor="#111111" width="100%" cellspacing="4"><tr>
+						<td width="90"><div id="codenum"><a href="javascript:get_cont('note','01','','','');">01</a></div></td>
+						<td width="568"><div id="descr"><a href="javascript:get_cont('note','01','','','');">ANIMAUX VIVANTS ET PRODUITS DU REGNE ANIMAL                                                                                                                                                                                                                                                                                                                                                                     </a></div></td>
+						</tr></table></td></tr><tr><td width="100%"><img border="0" width="100%" height="1px" src="img/ptv.gif"></td></tr>
+						<tr><td width="100%"><table class="tdet" border="0" cellpadding="4" style="border-collapse: collapse" bordercolor="#111111" width="100%" cellspacing="4"><tr>
+						<td width="90"><div id="codenum"><a href="javascript:get_cont('note','02','','','');">02</a></div></td>
+						<td width="568"><div id="descr"><a href="javascript:get_cont('note','02','','','');">PRODUITS DU REGNE VEGETAL                                                                                                                                                                                                                                                                                                                                                                                       </a></div></td>
+						</tr></table></td></tr><tr><td width="100%"><img border="0" width="100%" height="1px" src="img/ptv.gif"></td></tr>
+						<tr><td width="100%"><table class="tdet" border="0" cellpadding="4" style="border-collapse: collapse" bordercolor="#111111" width="100%" cellspacing="4"><tr>
+						<td width="90"><div id="codenum"><a href="javascript:get_cont('note','03','','','');">03</a></div></td>
+						<td width="568"><div id="descr"><a href="javascript:get_cont('note','03','','','');">"GRAISSES ET HUILES ANIMALES OU VEGETALES; PRODUITS DE LEUR DISSOCIATION; GRAISSES ALIMENTAIRES ELABOREES; CIRES D'ORIGINE ANIMALE OU VEGETALE                                                                                                                                                                                                                                                                   "</a></div></td>
+						</tr></table></td></tr><tr><td width="100%"><img border="0" width="100%" height="1px" src="img/ptv.gif"></td></tr>
+						<tr><td width="100%"><table class="tdet" border="0" cellpadding="4" style="border-collapse: collapse" bordercolor="#111111" width="100%" cellspacing="4"><tr>
+						<td width="90"><div id="codenum"><a href="javascript:get_cont('note','04','','','');">04</a></div></td>
+						<td width="568"><div id="descr"><a href="javascript:get_cont('note','04','','','');">"PRODUITS DES INDUSTRIES ALIMENTAIRES; BOISSONS, LIQUIDES ALCOOLIQUES ET    VINAIGRES; TABACS ET SUCCEDANES DE TABAC FABRIQUES                                                                                                                                                                                                                                                                                   "</a></div></td>
+						</tr></table></td></tr><tr><td width="100%"><img border="0" width="100%" height="1px" src="img/ptv.gif"></td></tr>
+						<tr><td width="100%"><table class="tdet" border="0" cellpadding="4" style="border-collapse: collapse" bordercolor="#111111" width="100%" cellspacing="4"><tr>
+						<td width="90"><div id="codenum"><a href="javascript:get_cont('note','05','','','');">05</a></div></td>
+						<td width="568"><div id="descr"><a href="javascript:get_cont('note','05','','','');">PRODUITS MINERAUX                                                                                                                                                                                                                                                                                                                                                                                               </a></div></td>
+						</tr></table></td></tr><tr><td width="100%"><img border="0" width="100%" height="1px" src="img/ptv.gif"></td></tr>
+						<tr><td width="100%"><table class="tdet" border="0" cellpadding="4" style="border-collapse: collapse" bordercolor="#111111" width="100%" cellspacing="4"><tr>
+						<td width="90"><div id="codenum"><a href="javascript:get_cont('note','06','','','');">06</a></div></td>
+						<td width="568"><div id="descr"><a href="javascript:get_cont('note','06','','','');">PRODUITS DES INDUSTRIES CHIMIQUES OU DES INDUSTRIES CONNEXES                                                                                                                                                                                                                                                                                                                                                    </a></div></td>
+						</tr></table></td></tr><tr><td width="100%"><img border="0" width="100%" height="1px" src="img/ptv.gif"></td></tr>
+						<tr><td width="100%"><table class="tdet" border="0" cellpadding="4" style="border-collapse: collapse" bordercolor="#111111" width="100%" cellspacing="4"><tr>
+						<td width="90"><div id="codenum"><a href="javascript:get_cont('note','07','','','');">07</a></div></td>
+						<td width="568"><div id="descr"><a href="javascript:get_cont('note','07','','','');">"MATIERES PLASTIQUES ET OUVRAGES EN CES MATIERES; CAOUTCHOUC ET OUVRAGES EN CAOUTCHOUC                                                                                                                                                                                                                                                                                                                           "</a></div></td>
+						</tr></table></td></tr><tr><td width="100%"><img border="0" width="100%" height="1px" src="img/ptv.gif"></td></tr>
+						<tr><td width="100%"><table class="tdet" border="0" cellpadding="4" style="border-collapse: collapse" bordercolor="#111111" width="100%" cellspacing="4"><tr>
+						<td width="90"><div id="codenum"><a href="javascript:get_cont('note','08','','','');">08</a></div></td>
+						<td width="568"><div id="descr"><a href="javascript:get_cont('note','08','','','');">"PEAUX, CUIRS, PELLETERIES ET OUVRAGES EN CES MATIERES;  ARTICLES DE BOURRELLERIE OU DE SELLERIE; ARTICLES DE VOYAGE, SACS A MAIN ET CONTENANTS SIMILAIRES; OUVRAGES EN BOYAUX                                                                                                                                                                                                                                   "</a></div></td>
+						</tr></table></td></tr><tr><td width="100%"><img border="0" width="100%" height="1px" src="img/ptv.gif"></td></tr>
+						<tr><td width="100%"><table class="tdet" border="0" cellpadding="4" style="border-collapse: collapse" bordercolor="#111111" width="100%" cellspacing="4"><tr>
+						<td width="90"><div id="codenum"><a href="javascript:get_cont('note','09','','','');">09</a></div></td>
+						<td width="568"><div id="descr"><a href="javascript:get_cont('note','09','','','');">"BOIS, CHARBON DE BOIS ET OUVRAGES EN BOIS; LIEGE ET OUVRAGES EN LIEGE;     OUVRAGES DE SPARTERIE OU DE VANNERIE                                                                                                                                                                                                                                                                                                 "</a></div></td>
+						</tr></table></td></tr><tr><td width="100%"><img border="0" width="100%" height="1px" src="img/ptv.gif"></td></tr>
+						<tr><td width="100%"><table class="tdet" border="0" cellpadding="4" style="border-collapse: collapse" bordercolor="#111111" width="100%" cellspacing="4"><tr>
+						<td width="90"><div id="codenum"><a href="javascript:get_cont('note','10','','','');">10</a></div></td>
+						<td width="568"><div id="descr"><a href="javascript:get_cont('note','10','','','');">"PATE DE BOIS OU D'AUTRES MATIERES FIBREUSES CELLULOSIQUES; PAPIER OU CARTON A RECYCLER (DECHET ET REBUTS )                                                                                                                                                                                                                                                                                                      "</a></div></td>
+						</tr></table></td></tr><tr><td width="100%"><img border="0" width="100%" height="1px" src="img/ptv.gif"></td></tr>
+						<tr><td width="100%"><table class="tdet" border="0" cellpadding="4" style="border-collapse: collapse" bordercolor="#111111" width="100%" cellspacing="4"><tr>
+						<td width="90"><div id="codenum"><a href="javascript:get_cont('note','11','','','');">11</a></div></td>
+						<td width="568"><div id="descr"><a href="javascript:get_cont('note','11','','','');">MATIERES TEXTILES ET OUVRAGES EN CES MATIERES                                                                                                                                                                                                                                                                                                                                                                   </a></div></td>
+						</tr></table></td></tr><tr><td width="100%"><img border="0" width="100%" height="1px" src="img/ptv.gif"></td></tr>
+						<tr><td width="100%"><table class="tdet" border="0" cellpadding="4" style="border-collapse: collapse" bordercolor="#111111" width="100%" cellspacing="4"><tr>
+						<td width="90"><div id="codenum"><a href="javascript:get_cont('note','12','','','');">12</a></div></td>
+						<td width="568"><div id="descr"><a href="javascript:get_cont('note','12','','','');">"CHAUSSURES, COIFFURES, PARAPLUIES, PARASOLS, CANNES, FOUETS, CRAVACHES ET LEURS PARTIES; PLUMES APPRETEES ET ARTICLES EN PLUMES; FLEURS ARTIFICIELLES; OUVRAGES EN CHEVEUX                                                                                                                                                                                                                                      "</a></div></td>
+						</tr></table></td></tr><tr><td width="100%"><img border="0" width="100%" height="1px" src="img/ptv.gif"></td></tr>
+						<tr><td width="100%"><table class="tdet" border="0" cellpadding="4" style="border-collapse: collapse" bordercolor="#111111" width="100%" cellspacing="4"><tr>
+						<td width="90"><div id="codenum"><a href="javascript:get_cont('note','13','','','');">13</a></div></td>
+						<td width="568"><div id="descr"><a href="javascript:get_cont('note','13','','','');">"OUVRAGES EN PIERRES, PLATRE, CIMENT, AMIANTE, MICA OU MATIERES ANALOGUES;  PRODUITS CERAMIQUES; VERRE ET OUVRAGES EN VERRE                                                                                                                                                                                                                                                                                      "</a></div></td>
+						</tr></table></td></tr><tr><td width="100%"><img border="0" width="100%" height="1px" src="img/ptv.gif"></td></tr>
+						<tr><td width="100%"><table class="tdet" border="0" cellpadding="4" style="border-collapse: collapse" bordercolor="#111111" width="100%" cellspacing="4"><tr>
+						<td width="90"><div id="codenum"><a href="javascript:get_cont('note','14','','','');">14</a></div></td>
+						<td width="568"><div id="descr"><a href="javascript:get_cont('note','14','','','');">"PERLES FINES OU DE CULTURE, PIERRES GEMMES OU SIMILAIRES, METAUX PRECIEUX, PLAQUES OU DOUBLES DE METAUX PRECIEUX ET OUVRAGES EN CES MATIERES; BIJOUTERIE DE FANTAISIE; MONNAIES                                                                                                                                                                                                                                 "</a></div></td>
+						</tr></table></td></tr><tr><td width="100%"><img border="0" width="100%" height="1px" src="img/ptv.gif"></td></tr>
+						<tr><td width="100%"><table class="tdet" border="0" cellpadding="4" style="border-collapse: collapse" bordercolor="#111111" width="100%" cellspacing="4"><tr>
+						<td width="90"><div id="codenum"><a href="javascript:get_cont('note','15','','','');">15</a></div></td>
+						<td width="568"><div id="descr"><a href="javascript:get_cont('note','15','','','');">METAUX COMMUNS ET OUVRAGES EN CES METAUX                                                                                                                                                                                                                                                                                                                                                                        </a></div></td>
+						</tr></table></td></tr><tr><td width="100%"><img border="0" width="100%" height="1px" src="img/ptv.gif"></td></tr>
+						<tr><td width="100%"><table class="tdet" border="0" cellpadding="4" style="border-collapse: collapse" bordercolor="#111111" width="100%" cellspacing="4"><tr>
+						<td width="90"><div id="codenum"><a href="javascript:get_cont('note','16','','','');">16</a></div></td>
+						<td width="568"><div id="descr"><a href="javascript:get_cont('note','16','','','');">"MACHINES ET APPAREILS, MATERIEL ELECTRIQUE ET LEURS PARTIES; APPAREILS     D'ENREGISTREMENT OU DE REPRODUCTION DU SON, APPAREILS D'ENREGISTREMENT OU DE REPRODUCTION DES IMAGES ET DU SON EN TELEVISION, ET PARTIES ET ACCESSOIRES DE CES APPAREILS                                                                                                                                                             "</a></div></td>
+						</tr></table></td></tr><tr><td width="100%"><img border="0" width="100%" height="1px" src="img/ptv.gif"></td></tr>
+						<tr><td width="100%"><table class="tdet" border="0" cellpadding="4" style="border-collapse: collapse" bordercolor="#111111" width="100%" cellspacing="4"><tr>
+						<td width="90"><div id="codenum"><a href="javascript:get_cont('note','17','','','');">17</a></div></td>
+						<td width="568"><div id="descr"><a href="javascript:get_cont('note','17','','','');">MATERIEL DE TRANSPORT                                                                                                                                                                                                                                                                                                                                                                                           </a></div></td>
+						</tr></table></td></tr><tr><td width="100%"><img border="0" width="100%" height="1px" src="img/ptv.gif"></td></tr>
+						<tr><td width="100%"><table class="tdet" border="0" cellpadding="4" style="border-collapse: collapse" bordercolor="#111111" width="100%" cellspacing="4"><tr>
+						<td width="90"><div id="codenum"><a href="javascript:get_cont('note','18','','','');">18</a></div></td>
+						<td width="568"><div id="descr"><a href="javascript:get_cont('note','18','','','');">"INSTRUMENTS ET APPAREILS D'OPTIQUE, DE PHOTOGRAPHIE OU DE CINEMATOGRAPHIE, DE MESURE, DE CONTROLE OU DE PRECISION; INSTRUMENTS ET APPAREILS MEDICO-CHIRURGICAUX; HORLOGERIE; INSTRUMENTS DE MUSIQUE; PARTIES ET ACCESSOIRES DE CES INSTRUMENTS OU APPAREILS                                                                                                                                                     "</a></div></td>
+						</tr></table></td></tr><tr><td width="100%"><img border="0" width="100%" height="1px" src="img/ptv.gif"></td></tr>
+						<tr><td width="100%"><table class="tdet" border="0" cellpadding="4" style="border-collapse: collapse" bordercolor="#111111" width="100%" cellspacing="4"><tr>
+						<td width="90"><div id="codenum"><a href="javascript:get_cont('note','19','','','');">19</a></div></td>
+						<td width="568"><div id="descr"><a href="javascript:get_cont('note','19','','','');">ARMES, MUNITIONS ET LEURS PARTIES ET ACCESSOIRES                                                                                                                                                                                                                                                                                                                                                                </a></div></td>
+						</tr></table></td></tr><tr><td width="100%"><img border="0" width="100%" height="1px" src="img/ptv.gif"></td></tr>
+						<tr><td width="100%"><table class="tdet" border="0" cellpadding="4" style="border-collapse: collapse" bordercolor="#111111" width="100%" cellspacing="4"><tr>
+						<td width="90"><div id="codenum"><a href="javascript:get_cont('note','20','','','');">20</a></div></td>
+						<td width="568"><div id="descr"><a href="javascript:get_cont('note','20','','','');">MARCHANDISES ET PRODUITS DIVERS                                                                                                                                                                                                                                                                                                                                                                                 </a></div></td>
+						</tr></table></td></tr><tr><td width="100%"><img border="0" width="100%" height="1px" src="img/ptv.gif"></td></tr>
+						<tr><td width="100%"><table class="tdet" border="0" cellpadding="4" style="border-collapse: collapse" bordercolor="#111111" width="100%" cellspacing="4"><tr>
+						<td width="90"><div id="codenum"><a href="javascript:get_cont('note','21','','','');">21</a></div></td>
+						<td width="568"><div id="descr"><a href="javascript:get_cont('note','21','','','');">"OBJETS D'ART; DE COLLECTION OU D'ANTIQUITE                                                                                                                                                                                                                                                                                                                                                                      "</a></div></td>
+						</tr></table></td></tr><tr><td width="100%"><img border="0" width="100%" height="1px" src="img/ptv.gif"></td></tr>
+						<tr><td width="100%"><img border="0" width="100%" height="3px" src="img/ptv.gif"></td></tr></table></center></div></div>
+</form>
+</div>
+
+ </center>                        </td>
+                      </tr>
+                    </table>                    
+                    </center>
+                  </div>
+				  </td>
+                </tr>
+              </table>
+				</center>
+              </div>
+              </td>
+              <td width="231" rowspan="2" align="right" valign="top"><table width="230" height="680" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="14" rowspan="14" background="http://www.douane.gov.dz/images/f_g.jpg">&nbsp;</td>
+                  <td height="48" valign="top" background="http://www.douane.gov.dz/images/fon_v.jpg" bgcolor="#FFFFFF" class="style59"><table width="216" height="48" border="0" align="center" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="58" class="style81"><div align="center" class="style118 style120">Versions</div></td>
+
+                        <td width="144" height="41"><div align="center">
+                            <table width="128" border="0" cellspacing="0" cellpadding="0">
+                              <tr>
+                                <td width="27"><div align="center"><a href="http://www.douane.gov.dz/ar/index.html"><img src="http://www.douane.gov.dz/images/dz.png" width="26" height="25" border="0"></a></div></td>
+                                <td width="27"><div align="center"><a href="http://www.douane.gov.dz/index.php"><img src="http://www.douane.gov.dz/images/fr.png" width="26" height="26" border="0"></a></div></td>
+                                <td width="27"><div align="center"><a href="http://www.douane.gov.dz/en/index.html"><img src="http://www.douane.gov.dz/images/an.png" width="26" height="25" border="0"></a></div></td>
+                                <td width="27"><div align="center"><a href="http://www.douane.gov.dz/Aide.html"><a href="http://www.douane.gov.dz/Aide.html"><img src="http://www.douane.gov.dz/images/interrogation.png" width="15" height="15" border="0"></a></div></td>
+                              </tr>
+                            </table>
+
+                        </div>
+                            <div align="center"></div>
+                          <div align="center"></div></td>
+                        <td width="14">&nbsp;</td>
+                      </tr>
+                  </table></td>
+                </tr> <tr><td height="73" valign="top" bgcolor="#FFFFFF" class="style_npb"><div class="menu_list1" id="secondpane"><p class="menu_head "><a href="http://www.douane.gov.dz/Lois et reglements douaniers.html">Lois et r&eacute;glements douaniers</a></p>
+                    <div class="menu_body"> <a href="http://www.douane.gov.dz/Codes.html"><span class="style_m1">Codes </span></a> <a href="http://www.douane.gov.dz/Lois et ordonnances.html"><span class="style_m1">Lois et ordonnances </span></a> <a href="http://www.douane.gov.dz/Decrets.html"><span class="style_m1">D&eacute;crets</span> </a> </a> <a href="http://www.douane.gov.dz/Arretes et Decisions.html"><span class="style_m1">Arr&ecirc;t&eacute;s et D&eacute;cisions </span></a>  <a href="http://www.douane.gov.dz/Notes et circulaires.html"><span class="style_m1">Notes et Circulaires</span></a>  </div>
+
+					 <p class="menu_head "><a href="http://www.douane.gov.dz/Cooperation internationale.html">Coop&eacute;ration Internationale</a></p>
+                    <div class="menu_body"> <a href="http://www.douane.gov.dz/Conventions assistance mutuelle.html"><span class="style_m1">Conventions d&rsquo;assistance mutuelle</span> </a>  <a href="http://www.douane.gov.dz/Accord_preferentiel.html"><span class="style_m1">Accord pr&eacute;f&eacute;rentiel</span></a> </div> <p class="menu_head "><a href="http://www.douane.gov.dz/Mesures specifiques.html">Mesures sp&eacute;cifiques</a></p>
+                    <div class="menu_body"> <a href="http://www.douane.gov.dz/Les hydrocarbures.html"><span class="style_m1">Les Hydrocarbures et mines</span></a>  <a href="http://www.douane.gov.dz/Metaux precieux.html"><span class="style_m1">M&eacute;taux Pr&eacute;cieux</span></a> <a href="http://www.douane.gov.dz/Echantillon.html"><span class="style_m1">Echantillon</span></a> <a href="http://www.douane.gov.dz/Envois postaux.html"><span class="style_m1">Envois postaux </span></a> <a href="http://www.douane.gov.dz/Envois humanitaires et dons.html"><span class="style_m1">Envois humanitaires et dons</span></a><a href="http://www.douane.gov.dz/contrefacon.html"><span class="style_m1">Contrefa&ccedil;on</span></a>  </div>
+
+                  </div></td>
+                </tr>
+                <tr>
+                  <td height="19" bgcolor="#D5D5D5" class="style59">&nbsp;</td>
+                </tr>
+                <tr><td height="22" bgcolor="#D5D5D5" class="style59"><div align="center">
+                      <p class="style77 style122 style121">NOTRE ORGANISATION TERRITORIALE</p>
+                  </div></td>
+
+                </tr>
+                <tr>
+                  <td width="210" height="200" valign="top" bgcolor="#D5D5D5"><a href="http://www.douane.gov.dz/Notre organisation territoriale.html"><img src="http://www.douane.gov.dz/images/lacarte.png" width="215" height="200" border="0"></a></td>
+                </tr>
+                <tr>
+                  <td height="18" bgcolor="#D5D5D5">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td height="22" bgcolor="#D5D5D5"><form name="form2" method="post" action="" class="style_text">
+
+                      <div align="center">
+                        <select class="style_text" name="menu1" onChange="MM_jumpMenu('parent',this,0)">
+                          <option class="style_text">Choisissez la direction ..........</option>
+                          <option class="style_text" value="Direction_alger_exterieur.html">Alger exterieur</option>
+                          <option class="style_text" value="Direction_alger_port.html">Alger port</option>
+                          <option class="style_text" value="Direction_annaba.html">Annaba</option>
+                          <option class="style_text" value="Direction_bechar.html">bechar</option>
+
+                          <option class="style_text" value="Direction_constantine.html">Constantine</option>
+                          <option class="style_text" value="Direction_illizi.html">Illizi</option>
+                          <option class="style_text" value="Direction_oran.html">Oran</option>
+                          <option class="style_text" value="Direction_ouargla.html">Ouargla</option>
+                          <option class="style_text" value="Direction_setif.html">Setif</option>
+                          <option class="style_text" value="Direction_tamanrasset.html">Tamanrasset</option>
+
+                          <option class="style_text" value="Direction_tebessa.html">Tebessa</option>
+                          <option class="style_text" value="Direction_telemcen.html">Tlemcen</option>
+                        </select>
+                      </div>
+                  </form></td>
+                </tr>
+                <tr>
+                  <td height="22" bgcolor="#D5D5D5">&nbsp;</td>
+
+                </tr>
+                
+                <tr>
+                  <td height="19" valign="top" bgcolor="#2D4C5E"><table width="200" border="0" align="center" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td height="23" class="style_menus">AVIS </td>
+                      </tr>
+                    </table></td>
+                </tr>
+
+                <tr>
+                  <td height="84" valign="top" bgcolor="#D5D5D5"><table width="100%" height="92" border="0" align="center" cellpadding="1" cellspacing="1" bgcolor="#D5D5D5">
+                    
+                    <tr>
+                      <td class="style_npb"><div align="center"><img src="http://www.douane.gov.dz/images/a.gif" width="12" height="11"></div></td>
+                      <td class="style_npb"><a href="http://www.douane.gov.dz/Concours.html">Concours</a></td>
+                    </tr>
+                    <tr>
+                      <td class="style_npb"><div align="center"><img src="http://www.douane.gov.dz/images/a.gif" width="12" height="11"></div></td>
+
+                      <td class="style_npb"><a href="http://www.douane.gov.dz/Stages_pratiques.html">Stages pratiques</a></td>
+                    </tr>
+                    <tr>
+                      <td class="style_npb"><div align="center"><img src="http://www.douane.gov.dz/images/a.gif" width="12" height="11"></div></td>
+                      <td class="style_npb"><a href="http://www.douane.gov.dz/Appels_offre.html">Appels d'offres</a></td>
+                    </tr>
+                    <tr>
+                      <td class="style_npb"><div align="center"><img src="http://www.douane.gov.dz/images/a.gif" width="12" height="11"></div></td>
+
+                      <td class="style_npb"><a href="http://www.douane.gov.dz/Vente aux encheres publiques.html">Ventes aux ench&egrave;res publiques</a></td>
+                    </tr>
+                    <tr>
+                      <td class="style_npb"><div align="center"><img src="http://www.douane.gov.dz/images/a.gif" width="12" height="11"></div></td>
+                      <td height="22" class="style_npb"><a href="http://www.douane.gov.dz/Alerte conterfaçon.html">Alerte contrefa&ccedil;on</a></td>
+                    </tr>
+                  </table></td>
+
+                </tr>
+                <tr>
+                  <td height="19" valign="top" bgcolor="#D5D5D5">&nbsp;</td>
+                </tr>
+                
+                <tr>
+                  <td height="22" valign="middle" bgcolor="#D5D5D5"><form name="form3" method="post" action="">
+                      <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#EDEBDC">
+                        <tr>
+                          <td width="96" height="19">&nbsp;</td>
+
+                          <td width="96"><div align="left"><span class="style_st style122">Newsletter </span></div></td>
+                          <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td>&nbsp;</td>
+                          <td>
+                          <input name="textfield3222" type="text" maxlength="40" size="20"></td>
+                          <td width="111"><input name="image2" type="image" src="http://www.douane.gov.dz/images/BOUTON OK.png" width="23" height="22"  border="0"></td>
+                        </tr>
+
+                      </table>
+                  </form></td>
+                </tr>
+                <tr>
+                  <td height="22" valign="middle" bgcolor="#D5D5D5">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td height="43" valign="middle" bgcolor="#D5D5D5"><form method=post action=resultats.php class="google_form">
+                      <div align="center">
+
+                        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#2D4C5E">
+                          <tr>
+                            <td valign="top">&nbsp;</td>
+                            <td height="19" valign="top"><div align="left"><span class="style119">Rechercher</span></div></td>
+                            <td valign="top">&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td width="28" valign="top">&nbsp;</td>
+
+                            <td width="144" height="24" valign="top"><div align="right">
+                              <input name=requete type=text class="google_box" id="requete" value="" maxlength="40" hspace="0" vspace="0" size="20">
+                            </div></td>
+                            <td width="44" valign="top"><input name="image22" type="image" src="http://www.douane.gov.dz/images/BOUTON OK.png" width="25" height="24"  border="0"></td>
+                          </tr>
+                        </table>
+                        </div>
+                  </form></td>
+                </tr>
+
+                
+            </table></td>
+            </tr>
+            <tr>
+              <td valign="top" background="http://www.douane.gov.dz/images/f_g.jpg">&nbsp;</td>
+              <td height="41" align="center" valign="top" bgcolor="#EDEBDC"><table width="593" height="41" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="72" height="28"><div align="center" class="style_text"><a href="http://www.douane.gov.dz/index.php">Accueil</a></div></td>
+                  <td width="88" ><div align="center" class="style_text"><a href="http://www.douane.gov.dz/Plan de site.html">Plan de site</a> </div></td>
+
+                  <td width="90" ><div align="center" class="style_text"><a href="http://www.douane.gov.dz/Glossaire.html">Glossaire</a></div></td>
+                  <td width="80" ><div align="center" class="style_text"><a href="http://www.douane.gov.dz/FAQ.html">FAQ</a></div></td>
+                  <td width="97" ><div align="center" class="style_text"><a href="http://www.douane.gov.dz/Nous contactez.html">Contact</a></div></td>
+                  <td width="91" ><div align="center" class="style_text"><a href="http://www.douane.gov.dz/Liens utiles.html">Liens utiles</a> </div></td>
+                  <td width="75" ><div align="center" class="style_text"><a href="http://www.douane.gov.dz/Aide.html">Aide</a></div></td>
+                </tr>
+
+              </table></td>
+            </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="25" valign="top"><table width="974" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td height="42" bgcolor="#0B3C41"><div align="center" ><span class="style101"><span class="style101">Copyright 
+                &copy; 2010 www.douane.gov.dz Tous droits r&eacute;serv&eacute;s<br>
+
+                Conception &amp; R&eacute;alisation par <a href="http://www.2hemispheres-dz.net" target="_blank">2hemispheres</a></span></span></div></td>
+              </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+
+</table>
+<br>
+<!-- End ImageReady Slices --></body>
+</html>

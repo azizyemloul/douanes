@@ -11,3 +11,15 @@ La navigation dans les sections et sous-sections de la base s'appuie sur un fich
 * Objectifs
 
 Le programme devrait faciliter l'accès à cette base en en créant une copie locale sous format text.
+* Étapes
+** Home page
+Le script interroge la page d'accueil et renvoie le [[sortie_print_home_page.html][contenu]].
+
+Les numéros de section et leurs intitulés sont identifiés comme suit :
+#+BEGIN_SRC html
+<div id="codenum">
+<div id="descr">
+#+END_SRC
+** TODO Parser la réponse
+Le script devra devra dans un premier temps lister les codes et les descriptions.
+Par la suite utiliser les codes pour générer une requête plus en profondeur vers les sous-sections.
