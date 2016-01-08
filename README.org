@@ -6,7 +6,7 @@ La direction générale des douanes met à disposition du public une base de don
 
 http://www.douane.gov.dz/applications/tarif/
 
-La navigation dans les sections et sous-sections de la base s'appuie sur un fichier Javascript [[file://init1.js][init1.js]]
+La navigation dans les sections et sous-sections de la base s'appuie sur un fichier Javascript [[init1.js]]
 
 * Objectifs
 
