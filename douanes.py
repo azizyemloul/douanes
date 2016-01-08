@@ -1,4 +1,4 @@
-# -*- coding: utf-8-unix -*-
+# -*- coding: utf8 -*-
 import urllib2 # https://docs.python.org/2/howto/urllib2.html
 
 url = 'http://www.douane.gov.dz/applications/tarif/'
