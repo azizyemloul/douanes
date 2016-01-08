@@ -1,1 +1,13 @@
-* douanes
+* Douanes
+Projet de script python pour la consultation de la base de données du tarif douanier.
+
+* État des lieux
+La direction générale des douanes met à disposition du public une base de données du tarif douanier à l'adresse suivante.
+
+http://www.douane.gov.dz/applications/tarif/
+
+La navigation dans les sections et sous-sections de la base s'appuie sur un fichier Javascript [[file://init1.js][init1.js]]
+
+* Objectifs
+
+Le programme devrait faciliter l'accès à cette base en en créant une copie locale sous format text.
