@@ -10,22 +10,25 @@ soup = BeautifulSoup(content, 'html.parser')
 
 dict_sections = {}
 for element in soup.find_all(id="codenum"):
-    code = element.parent.parent.contents[1].contents[1].contents[1].contents[0]                # on navigue 2 parents plus haut pour accéder aux deux cellules du tableau
-    spec = re.sub('"','',element.parent.parent.contents[3].contents[1].contents[1].contents[0]) # la cellule comportant les descriptions est inconsistante
-    #                                                                                           # certaines valeurs comportent des guillemets d'autres pas, on élimine les guillemets
+    code = element.get_text()                                                                   # on accède à la donnée numcode du tableau et on navigue vers la prochaine balise <td>
+    spec = re.sub('"','',element.findNext('td').get_text())                                     # la cellule comportant les descriptions est inconsistante
+    #                                                                                           # certaines valeurs comportent des guillemets d'autres pas, on élimine toutes les guillemets
     #print " ".join(code.split()) + " " + " ".join(spec.split())                                # a été utilisé pour section1.txt
     code = " ".join(code.split())                                                               # http://stackoverflow.com/questions/8270092/python-remove-all-whitespace-in-a-string
     spec = " ".join(spec.split())
     dict_sections[code] = spec
 
+print dict_sections                                                                             # juste pour que le script ne soit pas muet
 ########
 #
-# La portion de code suivante a été commentée pour éviter d'envoyer des requêtes inutiles au site des douanes
+# La portion de code ci-dessous a été commentée pour éviter d'envoyer des requêtes inutiles au site des douanes
 # Le résultat est dans le fichier id_chapitres.txt
 # À utiliser avec modération.
 # Réfléchir à la manière dont les données pourraient être structurées
+# Nacim évoque un fichier csv, une option. Mais en structure intermédiaire on peut réfléchir à une dictionnaire (type de donnée python) à plusieurs profondeurs: a nested dictionary
 #
 #######
+
 # url = 'http://www.douane.gov.dz/applications/tarif/get_content.php'
 # for idi,v in dict_sections.items():                                                                     # pour chaque identifiant de section
 #     print idi
@@ -45,13 +48,14 @@ for element in soup.find_all(id="codenum"):
 #         print "         " + code + " : " + spec
 
 
-#print dict_sections
-#get_content.php?id_chapitre="+id_chapitre+"&id_section="+id_section+"&id_sous_section="+id_sous_section+"&id_article="+id_article
+##############
+# Partie inutile pour le moment
+# que je garde pour mémoire
+#
+#############
+
+# get_content.php?id_chapitre="+id_chapitre+"&id_section="+id_section+"&id_sous_section="+id_sous_section+"&id_article="+id_article
 # id_chapitre = ""
 # id_section = ""
 # id_sous_section = ""
 # id_article = ""
-
-# url = 'http://www.douane.gov.dz/applications/tarif/get_content.php'
-# full_url = url + '?id_chapitre=' + "02"
-# print resp1
