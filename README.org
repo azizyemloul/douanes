@@ -9,20 +9,23 @@ http://www.douane.gov.dz/applications/tarif/
 La navigation dans les sections et sous-sections de la base s'appuie sur un fichier Javascript [[init1.js]]
 
 * Objectifs
-
 Le programme devrait faciliter l'accès à cette base en en créant une copie locale sous format text.
 * Étapes
-** Home page
-Le script interroge la page d'accueil et renvoie le [[sortie_print_home_page.html][contenu]].
+** DONE Tirer la home page
+   CLOSED: [2016-01-09 sam. 10:36]
+Le script [[douanes.py]] interroge la page d'accueil et renvoie le [[s_p_h_p_BeautifulSoup.html][contenu]].
 
 Les numéros de section et leurs intitulés sont identifiés comme suit :
 #+BEGIN_SRC html
 <div id="codenum">
 <div id="descr">
 #+END_SRC
-** TODO Parser la réponse
-Le script devra devra dans un premier temps lister les codes et les descriptions.
-Par la suite utiliser les codes pour générer une requête plus en profondeur vers les sous-sections.
+** DONE Parser la réponse
+   CLOSED: [2016-01-09 sam. 10:29]
+Le script [[proclocal.py][prolocal.py]] parse le fichier obtenu à l'étape précédente pour extraire [[section1.txt][les codes et les descriptions correspondantes]].
+
+** TODO Explorer le 2e niveau
+Utiliser les codes pour générer une requête plus en profondeur vers les sous-sections.
 * Codes à garder sous la main
 #+BEGIN_SRC python
 import urllib # on en aura besoin quand il faudra envoyer des requêtes en GET
