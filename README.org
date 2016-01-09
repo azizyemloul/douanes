@@ -39,7 +39,6 @@ import urllib # on en aura besoin quand il faudra envoyer des requêtes en GET
 from bs4 import BeautifulSoup # on verra l'usage dans la section 2 du code
 # user_agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64)' # au cas où ça s'impose
 # headers = { 'User-Agent' : user_agent }
-
 ###### Section 2
 # fo.close()
 # soup.title

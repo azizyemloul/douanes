@@ -1,0 +1,215 @@
+02
+         06 : Plantes vivantes et produits de la floriculture.
+         06 : Plantes vivantes et produits de la floriculture.
+         07 : Legumes, plantes, racines et tubercules alimentaires.
+         07 : Legumes, plantes, racines et tubercules alimentaires.
+         08 : Fruits comestibles; ecorces d'agrumes ou de melons.
+         08 : Fruits comestibles; ecorces d'agrumes ou de melons.
+         09 : Cafe, the, mate et epices.
+         09 : Cafe, the, mate et epices.
+         10 : Cereales.
+         10 : Cereales.
+         11 : Produits de la minoterie; malt; amidons et fecules; inuline; gluten de froment.
+         11 : Produits de la minoterie; malt; amidons et fecules; inuline; gluten de froment.
+         12 : Graines et fruits oleagineux; graines, semences et fruits divers; plantes industrielles ou medicinales; pailles et fourrages.
+         12 : Graines et fruits oleagineux; graines, semences et fruits divers; plantes industrielles ou medicinales; pailles et fourrages.
+         13 : Gommes, resines et autres sucs et extraits vegetaux.
+         13 : Gommes, resines et autres sucs et extraits vegetaux.
+         14 : Matieres a tresser et autres produits d'origine vegetale, non denommes ni compris ailleurs.
+         14 : Matieres a tresser et autres produits d'origine vegetale, non denommes ni compris ailleurs.
+03
+         15 : Graisses et huiles animales ou vegetales; produits de leur dissociation; graisses alimentaires elaborees; cires d'origine animale ou vegetale.
+         15 : Graisses et huiles animales ou vegetales; produits de leur dissociation; graisses alimentaires elaborees; cires d'origine animale ou vegetale.
+13
+         68 : Ouvrages en pierres, platre, ciment, amiante, mica ou matieres analogues.
+         68 : Ouvrages en pierres, platre, ciment, amiante, mica ou matieres analogues.
+         69 : Produits ceramiques.
+         69 : Produits ceramiques.
+         70 : Verre et ouvrages en verre.
+         70 : Verre et ouvrages en verre.
+01
+         01 : Animaux vivants
+         01 : Animaux vivants
+         02 : Viandes et abats comestibles
+         02 : Viandes et abats comestibles
+         03 : Poissons et crustaces, mollusques et autres invertebres aquatiques
+         03 : Poissons et crustaces, mollusques et autres invertebres aquatiques
+         04 : Laits et produits de la laiterie; oeufs d'oiseaux; miel naturel; produits comestibles d'origine animale, non denommes ni compris ailleurs
+         04 : Laits et produits de la laiterie; oeufs d'oiseaux; miel naturel; produits comestibles d'origine animale, non denommes ni compris ailleurs
+         05 : Autres produits d'origine animale, non denommes ni compris ailleurs
+         05 : Autres produits d'origine animale, non denommes ni compris ailleurs
+06
+         28 : Produits chimiques inorganiques; composes inorganiques ou organiques de metaux precieux, d'elements radioactifs, de metaux des terres rares ou d'isotopes.
+         28 : Produits chimiques inorganiques; composes inorganiques ou organiques de metaux precieux, d'elements radioactifs, de metaux des terres rares ou d'isotopes.
+         29 : Produits chimiques organiques.
+         29 : Produits chimiques organiques.
+         30 : Produits pharmaceutiques.
+         30 : Produits pharmaceutiques.
+         31 : Engrais
+         31 : Engrais
+         32 : Extraits tannants ou tinctoriaux; tannis et leurs derives; pigments et autres matieres colorantes; peintures et vernis; mastics; encres
+         32 : Extraits tannants ou tinctoriaux; tannis et leurs derives; pigments et autres matieres colorantes; peintures et vernis; mastics; encres
+         33 : Huiles essentielles et resinoides; produits de parfumerie ou de toilette prepares et preparations cosmetiques.
+         33 : Huiles essentielles et resinoides; produits de parfumerie ou de toilette prepares et preparations cosmetiques.
+         34 : 
+         34 : 
+         35 : Matieres albuminoides; produits a base d'amidons ou de fecules modifies; colles; enzymes.
+         35 : Matieres albuminoides; produits a base d'amidons ou de fecules modifies; colles; enzymes.
+         36 : Poudres et explosifs; articles de pyrotechnie; allumettes; alliages pyrophoriques; matieres inflammables.
+         36 : Poudres et explosifs; articles de pyrotechnie; allumettes; alliages pyrophoriques; matieres inflammables.
+         37 : Produits photographiques ou cinematographiques.
+         37 : Produits photographiques ou cinematographiques.
+         38 : Produits divers des industries chimiques.
+         38 : Produits divers des industries chimiques.
+07
+         39 : Matieres plastiques et ouvrages en ces matieres.
+         39 : Matieres plastiques et ouvrages en ces matieres.
+         40 : Caoutchouc et ouvrages en caoutchouc.
+         40 : Caoutchouc et ouvrages en caoutchouc.
+04
+         16 : Preparations de viandes, de poissons ou de crustaces, de mollusques ou d'autres invertebres aquatiques.
+         16 : Preparations de viandes, de poissons ou de crustaces, de mollusques ou d'autres invertebres aquatiques.
+         17 : Sucres et sucreries.
+         17 : Sucres et sucreries.
+         18 : Cacao et ses preparations.
+         18 : Cacao et ses preparations.
+         19 : Preparations a base de cereales, de farines, d'amidons, de fecules ou de lait; patisseries.
+         19 : Preparations a base de cereales, de farines, d'amidons, de fecules ou de lait; patisseries.
+         20 : Preparations de legumes, de fruits ou d'autres parties de plantes.
+         20 : Preparations de legumes, de fruits ou d'autres parties de plantes.
+         21 : Preparations alimentaires diverses.
+         21 : Preparations alimentaires diverses.
+         22 : Boissons, liquides alcooliques et vinaigres.
+         22 : Boissons, liquides alcooliques et vinaigres.
+         23 : Residus et dechets des industries alimentaires; aliments prepares pour animaux.
+         23 : Residus et dechets des industries alimentaires; aliments prepares pour animaux.
+         24 : Tabacs et succedanes de tabac fabriques.
+         24 : Tabacs et succedanes de tabac fabriques.
+05
+         25 : Sel; soufre; terres et pierres; platres, chaux et ciments.
+         25 : Sel; soufre; terres et pierres; platres, chaux et ciments.
+         26 : Minerais, scories et cendres.
+         26 : Minerais, scories et cendres.
+         27 : Combustibles mineraux, huiles minerales et produits de leurs distillations; matieres bitumineuses; cires minerales.
+         27 : Combustibles mineraux, huiles minerales et produits de leurs distillations; matieres bitumineuses; cires minerales.
+19
+         93 : Armes, munitions et leurs parties et accessoires.
+         93 : Armes, munitions et leurs parties et accessoires.
+18
+         90 : Instruments et appareils d'optique, de photographie ou de cinematographie, de mesure, de controle ou de precision; instruments et appareils medico-chirurgicaux; parties et accessoires de ces instruments ou appareils.
+         90 : Instruments et appareils d'optique, de photographie ou de cinematographie, de mesure, de controle ou de precision; instruments et appareils medico-chirurgicaux; parties et accessoires de ces instruments ou appareils.
+         91 : Horlogerie.
+         91 : Horlogerie.
+         92 : Instruments de musique; parties et accessoires de ces instruments.
+         92 : Instruments de musique; parties et accessoires de ces instruments.
+08
+         41 : Peaux (autres que les pelleteries) et cuirs.
+         41 : Peaux (autres que les pelleteries) et cuirs.
+         42 : Ouvrages en cuir, articles de bourrellerie ou de sellerie; articles de voyage, sacs a main et contenants similaires; ouvrages en boyaux.
+         42 : Ouvrages en cuir, articles de bourrellerie ou de sellerie; articles de voyage, sacs a main et contenants similaires; ouvrages en boyaux.
+         43 : Pelleteries et fourrres; pelleteries factices
+         43 : Pelleteries et fourrres; pelleteries factices
+09
+         44 : Bois, charbon de bois et ouvrages en bois.
+         44 : Bois, charbon de bois et ouvrages en bois.
+         45 : Liege et ouvrages en liege.
+         45 : Liege et ouvrages en liege.
+         46 : Ouvrages de sparterie ou de vannerie.
+         46 : Ouvrages de sparterie ou de vannerie.
+21
+         97 : Objets d'arts, de collection ou d'antiquite.
+         97 : Objets d'arts, de collection ou d'antiquite.
+         98 : Effets personnels
+         98 : Effets personnels
+20
+         94 : Meubles; mobilier medico-chirurgical; articles de literie et similaires; appareils d'eclairage non denommes ni compris ailleurs; lampes-reclames enseignes lumineuses, plaques indicatrices lumineuses et articles similaires; constructions prefabriquees.
+         94 : Meubles; mobilier medico-chirurgical; articles de literie et similaires; appareils d'eclairage non denommes ni compris ailleurs; lampes-reclames enseignes lumineuses, plaques indicatrices lumineuses et articles similaires; constructions prefabriquees.
+         95 : Jouets, jeux, articles pour divertissements ou pour sports; leurs parties et accessoires.
+         95 : Jouets, jeux, articles pour divertissements ou pour sports; leurs parties et accessoires.
+         96 : Ouvrages divers.
+         96 : Ouvrages divers.
+16
+         84 : Reacteurs nucleaires, chaudieres, machines, appareils et engins mecaniques; parties de ces machines et appareils.
+         84 : Reacteurs nucleaires, chaudieres, machines, appareils et engins mecaniques; parties de ces machines et appareils.
+         85 : Machines, appareils et materiels electriques et leurs parties; appareils d'enregistrement ou de reproduction du son, appareils d'enregistrement ou de reproduction des images et du son en television, et parties et accessoires de ces appareils.
+         85 : Machines, appareils et materiels electriques et leurs parties; appareils d'enregistrement ou de reproduction du son, appareils d'enregistrement ou de reproduction des images et du son en television, et parties et accessoires de ces appareils.
+12
+         64 : Chaussures, guetres et articles analogues; parties de ces objets.
+         64 : Chaussures, guetres et articles analogues; parties de ces objets.
+         65 : Coiffures et parties de coiffures.
+         65 : Coiffures et parties de coiffures.
+         66 : Parapluies, ombrelles, parasols, cannes, cannes-sieges, fouets, cravaches et leurs parties.
+         66 : Parapluies, ombrelles, parasols, cannes, cannes-sieges, fouets, cravaches et leurs parties.
+         67 : Plumes et duvet appretes et articles en plumes ou en duvet; fleurs artificielles; ouvrages en cheveux.
+         67 : Plumes et duvet appretes et articles en plumes ou en duvet; fleurs artificielles; ouvrages en cheveux.
+17
+         86 : Vehicules et materiel pour voies ferrees ou similaires et leurs parties; appareils mecaniques (y compris electromecaniques) de signalisation pour voies de communication.
+         86 : Vehicules et materiel pour voies ferrees ou similaires et leurs parties; appareils mecaniques (y compris electromecaniques) de signalisation pour voies de communication.
+         87 : Voitures automobiles, tracteurs, cycles et autres vehicules terrestres, leurs parties et accessoires.
+         87 : Voitures automobiles, tracteurs, cycles et autres vehicules terrestres, leurs parties et accessoires.
+         88 : Navigation aerienne ou spatiale.
+         88 : Navigation aerienne ou spatiale.
+         89 : Navigation maritime ou fluviale.
+         89 : Navigation maritime ou fluviale.
+14
+         71 : Perles fines ou de culture, pierres gemmes ou similaires, metaux precieux, plaques ou doubles de metaux precieux et ouvrages en ces matieres; bijouterie de fantaisie; monnaies.
+         71 : Perles fines ou de culture, pierres gemmes ou similaires, metaux precieux, plaques ou doubles de metaux precieux et ouvrages en ces matieres; bijouterie de fantaisie; monnaies.
+11
+         50 : Soie
+         50 : Soie
+         51 : Laine, poils fins ou grossiers; fils et tissus de crin.
+         51 : Laine, poils fins ou grossiers; fils et tissus de crin.
+         52 : Coton.
+         52 : Coton.
+         53 : Autres fibres textiles vegetales; fils de papier et tissus de fils de papier.
+         53 : Autres fibres textiles vegetales; fils de papier et tissus de fils de papier.
+         54 : Filaments synthetiques ou artificiels.
+         54 : Filaments synthetiques ou artificiels.
+         55 : Fibres synthetiques ou artificielles discontinues.
+         55 : Fibres synthetiques ou artificielles discontinues.
+         56 : Ouates, feutres et nontisses; fils speciaux; ficelles, cordes et cordages; articles de corderie.
+         56 : Ouates, feutres et nontisses; fils speciaux; ficelles, cordes et cordages; articles de corderie.
+         57 : Tapis et autres revetements de sol en matieres textiles.
+         57 : Tapis et autres revetements de sol en matieres textiles.
+         58 : Tissus speciaux; surfaces textiles touffetees; dentelles; tapisseries; passementeries; broderies.
+         58 : Tissus speciaux; surfaces textiles touffetees; dentelles; tapisseries; passementeries; broderies.
+         59 : Tissus impregnes, enduits recouverts ou stratifies; articles techniques en matieres textiles.
+         59 : Tissus impregnes, enduits recouverts ou stratifies; articles techniques en matieres textiles.
+         60 : Etoffes de bonneterie.
+         60 : Etoffes de bonneterie.
+         61 : Vetements et accessoires du vetement, en bonneterie.
+         61 : Vetements et accessoires du vetement, en bonneterie.
+         62 : Vetements et accessoires du vetement, autres qu'en bonneterie.
+         62 : Vetements et accessoires du vetement, autres qu'en bonneterie.
+         63 : Autres articles textiles confectionnes; assortiments; friperie et chiffons.
+         63 : Autres articles textiles confectionnes; assortiments; friperie et chiffons.
+15
+         72 : Fonte, fer et acier.
+         72 : Fonte, fer et acier.
+         73 : Ouvrages en fonte, fer ou acier.
+         73 : Ouvrages en fonte, fer ou acier.
+         74 : Cuivre et ouvrages en cuivre.
+         74 : Cuivre et ouvrages en cuivre.
+         75 : Nickel et ouvrages en nickel.
+         75 : Nickel et ouvrages en nickel.
+         76 : Aluminium et ouvrages en aluminium.
+         76 : Aluminium et ouvrages en aluminium.
+         78 : Plomb et ouvrages en plomb.
+         78 : Plomb et ouvrages en plomb.
+         79 : Zinc et ouvrages en zinc.
+         79 : Zinc et ouvrages en zinc.
+         80 : Etain et ouvrages en etain.
+         80 : Etain et ouvrages en etain.
+         81 : Autres metaux communs; cermets; ouvrages en ces matieres.
+         81 : Autres metaux communs; cermets; ouvrages en ces matieres.
+         82 : Outils et outillage, articles de coutellerie et couverts de table, en metaux communs; parties de ces articles, en metaux communs.
+         82 : Outils et outillage, articles de coutellerie et couverts de table, en metaux communs; parties de ces articles, en metaux communs.
+         83 : Ouvrages divers en metaux communs.
+         83 : Ouvrages divers en metaux communs.
+10
+         47 : Pate de bois ou d'autres matieres fibreuses cellulosiques; papier ou carton a recycler ( dechets et rebuts )
+         47 : Pate de bois ou d'autres matieres fibreuses cellulosiques; papier ou carton a recycler ( dechets et rebuts )
+         48 : Papiers et cartons; ouvrages en pate de cellulose, en papier ou en carton.
+         48 : Papiers et cartons; ouvrages en pate de cellulose, en papier ou en carton.
+         49 : Produits de l'edition, de la presse ou des autres industries graphiques; textes manuscrits ou dactylographies et plants.
+         49 : Produits de l'edition, de la presse ou des autres industries graphiques; textes manuscrits ou dactylographies et plants.
