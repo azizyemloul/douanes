@@ -23,17 +23,22 @@ Les numéros de section et leurs intitulés sont identifiés comme suit :
 ** DONE Parser la réponse
    CLOSED: [2016-01-09 sam. 10:29]
 Le script [[proclocal.py][prolocal.py]] parse le fichier obtenu à l'étape précédente pour extraire [[section1.txt][les codes et les descriptions correspondantes]].
-** TODO Explorer le 2e niveau
-Utiliser les codes pour générer une requête plus en profondeur vers les sous-sections.
+** DONE Explorer le 2e niveau
+   CLOSED: [2016-01-09 sam. 14:08]
+Utiliser les codes pour générer une requête plus en profondeur vers les sections.
+- Le fichier [[file:id_chapitres.txt][id_chapitres.txt]] rassemble le listing des sections. Il est produit par 21 requêtes au serveur des douanes envoyées par le script [[proclocal.py][prolocal.py]].
+- Les lignes correspondantes à ces requêtes ont été commentées pour éviter de se faire remarquer.
 ** TODO Observations
 C'est à ce niveau que la programmation orientée objet commence à prendre son sens.
-Au lieu d'enregistrer les résultats à chaque étape des fonctions ou des modules pourrait se renvoyer les résultats internes sous formes de données structurées.
+
+Au lieu d'enregistrer les résultats à chaque étape des fonctions ou des modules pourraient se renvoyer les résultats en interne sous formes de données structurées.
+
 En l'état [[proclocal.py][prolocal.py]] enregistre le résultat (code et description) dans une variable de type dictionnaire.
 #+BEGIN_SRC python
 dict_sections[code] = spec
 #+END_SRC
 
-* Codes à garder sous la main
+* Lignes de code à garder sous la main
 #+BEGIN_SRC python
 import urllib # on en aura besoin quand il faudra envoyer des requêtes en GET
 from bs4 import BeautifulSoup # on verra l'usage dans la section 2 du code

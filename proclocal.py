@@ -18,23 +18,31 @@ for element in soup.find_all(id="codenum"):
     spec = " ".join(spec.split())
     dict_sections[code] = spec
 
-url = 'http://www.douane.gov.dz/applications/tarif/get_content.php'
-for idi,v in dict_sections.items():
-    print idi
-    full_url = url + '?id_chapitre=' +  idi
-    req = urllib2.Request(full_url)
-    opn = urllib2.urlopen(req)
-    rep = opn.read()
-    soup = BeautifulSoup(rep, 'html.parser')
-    for element in soup.find_all(id="codenum"):
-        code = element.contents[0].string                                                               # on navigue 2 parents plus haut pour accéder aux deux cellules du tableau
-        spec = element.findNext('td').contents[0].string                                                # la cellule comportant les descriptions est inconsistante
-        #                                                                                               # certaines valeurs comportent des guillemets d'autres pas, on élimine les guillemets
-        #print " ".join(code.split()) + " " + " ".join(spec.split())                                # a été utilisé pour section1.txt
-        code = " ".join(code.split())                                                               # http://stackoverflow.com/questions/8270092/python-remove-all-whitespace-in-a-string
-        if (spec == None) : spec = ""                                                                   #
-        spec = " ".join(spec.split())
-        print "         " + code + " : " + spec
+########
+#
+# La portion de code suivante a été commentée pour éviter d'envoyer des requêtes inutiles au site des douanes
+# Le résultat est dans le fichier id_chapitres.txt
+# À utiliser avec modération.
+# Réfléchir à la manière dont les données pourraient être structurées
+#
+#######
+# url = 'http://www.douane.gov.dz/applications/tarif/get_content.php'
+# for idi,v in dict_sections.items():                                                                     # pour chaque identifiant de section
+#     print idi
+#     full_url = url + '?id_chapitre=' +  idi                                                             # on envoie une requête
+#     req = urllib2.Request(full_url)
+#     opn = urllib2.urlopen(req)
+#     rep = opn.read()
+#     soup = BeautifulSoup(rep, 'html.parser')
+#     for element in soup.find_all(id="codenum"):
+#         code = element.contents[0].string                                                               # Cette recette améliore la méthode du premier loop
+#         spec = element.findNext('td').contents[0].string                                                # au lieu de remonter dans l'arbre des tags
+#         #                                                                                               # on cherche la prochaine cellule avec findNext('td')
+#         #                                                                                               # http://stackoverflow.com/questions/5999747/beautifulsoup-nextsibling
+#         code = " ".join(code.split())
+#         if (spec == None) : spec = ""                                                                   # parce que le chapitre 0634 est mal formé et renvoie une erreur
+#         spec = " ".join(spec.split())                                                                   # qui arrête le script
+#         print "         " + code + " : " + spec
 
 
 #print dict_sections
