@@ -13,7 +13,7 @@ Le programme devrait faciliter l'accès à cette base en en créant une copie lo
 * Étapes
 ** DONE Tirer la home page
    CLOSED: [2016-01-09 sam. 10:36]
-Le script [[douanes.py]] interroge la page d'accueil et renvoie le [[s_p_h_p_BeautifulSoup.html][contenu]].
+Le script [[douanes.py]] interroge la page d'accueil et enregistre le [[s_p_h_p_BeautifulSoup.html][contenu]] en local.
 
 Les numéros de section et leurs intitulés sont identifiés comme suit :
 #+BEGIN_SRC html
@@ -23,9 +23,16 @@ Les numéros de section et leurs intitulés sont identifiés comme suit :
 ** DONE Parser la réponse
    CLOSED: [2016-01-09 sam. 10:29]
 Le script [[proclocal.py][prolocal.py]] parse le fichier obtenu à l'étape précédente pour extraire [[section1.txt][les codes et les descriptions correspondantes]].
-
 ** TODO Explorer le 2e niveau
 Utiliser les codes pour générer une requête plus en profondeur vers les sous-sections.
+** TODO Observations
+C'est à ce niveau que la programmation orientée objet commence à prendre son sens.
+Au lieu d'enregistrer les résultats à chaque étape des fonctions ou des modules pourrait se renvoyer les résultats internes sous formes de données structurées.
+En l'état [[proclocal.py][prolocal.py]] enregistre le résultat (code et description) dans une variable de type dictionnaire.
+#+BEGIN_SRC python
+dict_sections[code] = spec
+#+END_SRC
+
 * Codes à garder sous la main
 #+BEGIN_SRC python
 import urllib # on en aura besoin quand il faudra envoyer des requêtes en GET

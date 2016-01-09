@@ -8,8 +8,9 @@ soup = BeautifulSoup(content, 'html.parser')
 
 dict_sections = {}
 for element in soup.find_all(id="codenum"):
-    code = element.parent.parent.contents[1].contents[1].contents[1].contents[0]
-    spec = re.sub('"','',element.parent.parent.contents[3].contents[1].contents[1].contents[0])
+    code = element.parent.parent.contents[1].contents[1].contents[1].contents[0]                # on navigue 2 parents plus haut pour accéder aux deux cellules du tableau
+    spec = re.sub('"','',element.parent.parent.contents[3].contents[1].contents[1].contents[0]) # la cellule comportant les descriptions est inconsistante
+    #                                                                                           # certaines valeurs comportent des guillements d'autres pas, on les élimine
     #print " ".join(code.split()) + " " + " ".join(spec.split())
     code = " ".join(code.split())
     spec = " ".join(spec.split())
