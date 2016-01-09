@@ -31,9 +31,6 @@ from bs4 import BeautifulSoup # on verra l'usage dans la section 2 du code
 # headers = { 'User-Agent' : user_agent }
 
 ###### Section 2
-#soup = BeautifulSoup(home_page, 'html.parser')
-# edit = soup.prettify()
-
 # fo.close()
 # soup.title
 #+END_SRC
