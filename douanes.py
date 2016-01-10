@@ -19,3 +19,4 @@ fo = open("s_p_h_p_BeautifulSoup.html", "wb")   # enregistrement du contenu dans
 fo.write(home_page.encode('utf8'))              # encode('utf8') est ici nécessaire car
 #                                               # le site renvoie une réponse encodée en ISO-8859 et python s'en plaint
 #                                               # http://stackoverflow.com/questions/19833440/unicodeencodeerror-ascii-codec-cant-encode-character-u-xe9-in-position-7
+fo.close()

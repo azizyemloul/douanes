@@ -28,7 +28,15 @@ Le script [[proclocal.py][prolocal.py]] parse le fichier obtenu à l'étape pré
 Utiliser les codes pour générer une requête plus en profondeur vers les sections.
 - Le fichier [[file:id_chapitres.txt][id_chapitres.txt]] rassemble le listing des sections. Il est produit par 21 requêtes au serveur des douanes envoyées par le script [[proclocal.py][prolocal.py]].
 - Les lignes correspondantes à ces requêtes ont été commentées pour éviter de se faire remarquer.
+** DONE Exploration du 3e niveau
+   CLOSED: [2016-01-10 dim. 20:34]
+Le fichier [[3eme_niveau.org]] regroupe la plus grande partie sinon la totalité de l'arborescence jusqu'au Rangées. Il comporte quelques 10047 lignes. *Attention* Le scipt [[proclocal.py][prolocal.py]] génère donc quelques milliers de requêtes au serveur des douanes.
+** TODO Reste à faire
+- Reste à faire 2 niveaux de profondeurs pour parvenir à l'information qui nous importe à savoir les taux.
+- Déterminer si les doublons (nombreux) le sont réellement.
+- Déterminer la structure des données telle qu'on la souhaite en local.
 ** TODO Observations
+*** De l'orienté objet
 C'est à ce niveau que la programmation orientée objet commence à prendre son sens.
 
 Au lieu d'enregistrer les résultats à chaque étape des fonctions ou des modules pourraient se renvoyer les résultats en interne sous formes de données structurées.
@@ -37,7 +45,22 @@ En l'état [[proclocal.py][prolocal.py]] enregistre le résultat (code et descri
 #+BEGIN_SRC python
 dict_sections[code] = spec
 #+END_SRC
-
+*** Contradictions entre convention de nommage de la requête et affichage du site et implications dans le code
+Du fichier javascript [[init1.js]] qui renvoie la requête au script php on lit :
+#+BEGIN_SRC javascript
+    xmlhttp.open("GET","get_content.php?id_chapitre="+id_chapitre+"&id_section="+id_section+"&id_sous_section="+id_sous_section+"&id_article="+id_article,true);
+#+END_SRC
+Ce qui donne la convention de nommage suivante :
+- chapitre
+- section
+- sous_section
+- article
+La navigation de la page d'accueil des douanes est organisée plutôt de la manière suivante
+- Section
+- Chapitre
+- Rangée
+- Position
+Pour enfin arriver au dernier noeud qui nous intéresse *Liste des taxes de la sous position tarifaire*
 * Lignes de code à garder sous la main
 #+BEGIN_SRC python
 import urllib # on en aura besoin quand il faudra envoyer des requêtes en GET
